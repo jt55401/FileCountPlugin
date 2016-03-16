@@ -1,0 +1,14 @@
+﻿{
+  "agents": [
+    {
+      "name": "someserver",
+      "directoryNickname": "desktop",
+      "directory": "C:\\Users\\test_000\\Desktop"
+    },
+    {
+      "name": "someserver",
+      "directoryNickname": "documents",
+      "directory": "C:\\Users\\test_000\\Documents"
+    }
+  ]
+}
