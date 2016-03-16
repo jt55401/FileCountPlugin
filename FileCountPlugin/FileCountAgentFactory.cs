@@ -11,9 +11,8 @@ namespace FileCountPlugin
 
             string name = (string)properties["name"];
             string directory = (string)properties["directory"];
-            string nickname = (string)properties["directoryNickname"];
 
-            return new FileCountAgent(name, directory, nickname);
+            return new FileCountAgent(name, directory);
 
         }
     }

@@ -35,13 +35,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NewRelic.Platform.Sdk">
-      <HintPath>..\..\..\..\Desktop\newrelic_dotnet_sdk-master\build\AnyCPU-Debug\NewRelic.Platform.Sdk\NewRelic.Platform.Sdk.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\newrelic_dotnet_sdk-master\build\AnyCPU-Release\NewRelic.Platform.Sdk\NewRelic.Platform.Sdk.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Desktop\newrelic_dotnet_sdk-master\build\AnyCPU-Debug\NewRelic.Platform.Sdk\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\newrelic_dotnet_sdk-master\build\AnyCPU-Release\NewRelic.Platform.Sdk\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="NLog">
-      <HintPath>..\..\..\..\Desktop\newrelic_dotnet_sdk-master\build\AnyCPU-Debug\NewRelic.Platform.Sdk\NLog.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\newrelic_dotnet_sdk-master\build\AnyCPU-Release\NewRelic.Platform.Sdk\NLog.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

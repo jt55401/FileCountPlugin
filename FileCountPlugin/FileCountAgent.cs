@@ -18,13 +18,11 @@ namespace FileCountPlugin
 
         public string Name;
         public string Directory;
-        public string Nickname;
 
-        public FileCountAgent(string name, string directory, string nickname)
+        public FileCountAgent(string name, string directory)
         {
             this.Name = name;
             this.Directory = directory;
-            this.Nickname = nickname;
 
             s_log.Info("Created an agent for ", name, directory);
 
@@ -35,8 +33,6 @@ namespace FileCountPlugin
             return this.Name;
         }
 
-        //private EpochProcessor filesProcessor = new EpochProcessor();
-
         public override void PollCycle()
         {
             s_log.Debug("polled");
@@ -45,8 +41,7 @@ namespace FileCountPlugin
 
             int numFiles = filePaths.Length;
 
-            ReportMetric("File/Count/" + this.Nickname, "files", numFiles);
-            //ReportMetric("File/Rate/" + abbr, "files/sec", filesProcessor.Process(numFiles));
+            ReportMetric("File/Count", "files", numFiles);
         }
 
     }
